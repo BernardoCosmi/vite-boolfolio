@@ -1,10 +1,8 @@
 <script>
 
- import AppHeader from './components/AppHeader.vue'
-
 export default {
   components: {
-    AppHeader,
+
 
   },
   data(){
@@ -24,13 +22,7 @@ export default {
 
 <template>
 
-  <AppHeader/>
-
-  <!-- <ProjectCard/> -->
-
-  <router-view>
-
-  </router-view>
+<h1>home</h1>
 
 </template>
 
