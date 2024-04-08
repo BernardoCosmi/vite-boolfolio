@@ -1,5 +1,5 @@
 <script>
-
+import {store} from '../store.js'
 
 export default {
     name: 'AppProject',
@@ -11,7 +11,7 @@ export default {
     },
     data() {
         return {
-
+            store
         }
     },
     methods: {
@@ -31,7 +31,7 @@ export default {
             
             <div class="card">
 
-                <img :src="`http://127.0.0.1:8000/storage/${thumb}`" class="card-img-top" :alt="title">
+                <img :src="`${store.apiBaseUrl}/storage/${thumb}`" class="card-img-top" :alt="title">
 
                 <div class="card-body ">
 
