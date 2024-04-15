@@ -51,6 +51,11 @@ export default {
                             Portfolio
                         </router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link :to="{ name:'contact-us' }" class="nav-link">
+                            Contacts
+                        </router-link>
+                    </li>
                 </ul>
 
             </div>
